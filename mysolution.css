@@ -16,9 +16,48 @@
 .ex-3-square:hover {
     border-radius: 50%;
 }
-.ex-3-square {
+.ex-4-square {
     transition: 5s;
 }
-.ex-3-square:hover {
+.ex-4-square:hover {
    opacity: 0;
 }
+.ex-5-square {
+    transition: 5s;
+}
+.ex-5-square:hover {
+   transform: scale(3);
+}
+.ex-5-square:active {
+    transform: scale(0.3);
+ }
+ .ex-6-img:hover {
+    filter: grayscale(3);
+}
+.ex-8-square {
+    transition: 5s;
+}
+
+ .ex-8-img:hover {
+    filter: grayscale(3);
+    border-radius: 10%;
+}
+.ex-9-square {
+    transition: 5s;
+}
+
+ .ex-9-img:hover {
+    filter: grayscale(3);
+    border-radius: 10%;
+    transform: scale(1.5);
+}
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+
